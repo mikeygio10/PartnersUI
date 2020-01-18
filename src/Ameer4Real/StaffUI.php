@@ -15,7 +15,7 @@ use pocketmine\utils\Config;
 use jojoe77777\FormAPI;
 use jojoe77777\FormAPI\SimpleForm;
 
-class InfoUI extends PluginBase implements Listener {
+class StaffUI extends PluginBase implements Listener {
 	
 	public function onEnable(){
         $this->getServer()->getPluginManager()->registerEvents($this, $this);
