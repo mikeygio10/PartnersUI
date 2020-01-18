@@ -1,10 +1,10 @@
-name: InfoUI
+name: StaffUI
 author: Ameer4Real
-main: Ameer4Real\InfoUI
-version: 0.1
-description: See information about the server in an UI format!
+main: Ameer4Real\StaffUI
+version: 1.0
+description: UI used just for staff
 api: [3.0.0]
 commands:
-    info:
+    staff:
         default: true
-        description: Opens Information Menu!
+        description: List of all staff
