@@ -1,10 +1,10 @@
-name: StaffUI
+name: PartnersUI
 author: Ameer4Real
-main: Ameer4Real\StaffUI
+main: Ameer4Real\PartnersUI
 version: 1.0
-description: UI used just for staff
-api: [3.0.0]
+description: PartnersUI
+api: [3.0.0, 4.0.0]
 commands:
-    staff:
+    partners:
         default: true
-        description: List of all staff
+        description: List of servers partners
