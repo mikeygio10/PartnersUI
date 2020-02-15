@@ -15,7 +15,7 @@ use pocketmine\utils\Config;
 use jojoe77777\FormAPI;
 use jojoe77777\FormAPI\SimpleForm;
 
-class StaffUI extends PluginBase implements Listener {
+class PartnersUI extends PluginBase implements Listener {
 	
 	public function onEnable(){
         $this->getServer()->getPluginManager()->registerEvents($this, $this);
@@ -23,7 +23,7 @@ class StaffUI extends PluginBase implements Listener {
 	
 	public function onCommand(CommandSender $sender, Command $cmd, string $label,array $args): bool{
 		switch($cmd->getName()){
-			case "staff":
+			case "partners":
 			if(!$sender instanceof Player){
 			$sender->sendMessage("You can only use this command In-Game");
 			return false;
