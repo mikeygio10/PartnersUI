@@ -3,9 +3,9 @@
 #Use "§" as a color symbol
 #Use "\n" to go to the next line
 #The title of the menu
-Title: "§a§lInfo§bUI"
+Title: "§0§lPartners"
 #The content of the menu (Description)
-Content: "§bWelcome to the §e§oServer§r§7! \n §7This §e§oServer§r §7is using §e§oInfo§bUI§r§7! \n \n"
+Content: "§cComing Soon"
 #Returns button name
-Button: "§aSubmit"
+Button: "§cExit"
 ...
